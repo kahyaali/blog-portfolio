@@ -6,7 +6,7 @@ import { useLocalStorage } from '../../hooks/useLocalStorage';
 const Hobbies = () => {
   const [hobbies] = useLocalStorage('hobbies', [
     { name: 'Kitap Okumak', icon: 'book', color: 'blue', description: 'Yılda 50+ kitap okuma hedefim var' },
-    { name: 'Kamp Yapmak', icon: 'campground', color: 'green', description: 'Akustik ve elektro gitar' },
+    { name: 'Kamp Yapmak', icon: 'campground', color: 'green', description: 'Deniz ve Orman' },
     { name: 'Oyun Oynamak', icon: 'activity', color: 'purple', description: 'PC ve konsol oyunları' },
     { name: 'Fotoğrafçılık', icon: 'camera', color: 'orange', description: 'Sokak ve manzara fotoğrafçılığı' },
     { name: 'Kahve Kültürü', icon: 'coffee', color: 'red', description: 'Farklı kahve türlerini denemek' }
