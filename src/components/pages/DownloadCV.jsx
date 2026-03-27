@@ -5,9 +5,9 @@ import { useLocalStorage } from '../../hooks/useLocalStorage';
 import { useNotification } from '../../contexts/NotificationContext';
 
 const DownloadCV = () => {
-  const [profileName] = useLocalStorage('profileName', 'Ahmet Yılmaz');
-  const [profileTitle] = useLocalStorage('profileTitle', 'Yazılım Destek Danışmanı');
-  const [profileEmail] = useLocalStorage('profileEmail', 'ahmet@example.com');
+  const [profileName] = useLocalStorage('profileName', 'Ali Kahya');
+  const [profileTitle] = useLocalStorage('profileTitle', 'Yazılım Destek Danışmanı & Yazılım Geliştirme');
+  const [profileEmail] = useLocalStorage('profileEmail', 'ali.kahya@outlook.com');
   const [profileLocation] = useLocalStorage('profileLocation', 'İstanbul, Türkiye');
   const [aboutText] = useLocalStorage('aboutText', '');
   const [skills] = useLocalStorage('skills', []);
@@ -54,7 +54,7 @@ const DownloadCV = () => {
 
             <div className="mb-6">
               <h2 className="text-xl font-bold text-[var(--text-h)] mb-3 border-b border-[var(--border)] pb-2">Hakkımda</h2>
-              <p className="text-[var(--text)] leading-relaxed">{aboutText || 'Bilgi bulunmuyor.'}</p>
+              <p className="text-[var(--text)] leading-relaxed">{aboutText || 'Hakkımda sayfasından gerekli bilgilere ulaşabilirsiniz.'}</p>
             </div>
 
             <div className="mb-6">

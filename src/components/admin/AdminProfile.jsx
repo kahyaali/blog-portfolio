@@ -4,11 +4,11 @@ import { useLocalStorage } from '../../hooks/useLocalStorage';
 
 const AdminProfile = () => {
   const [profileImage, setProfileImage] = useLocalStorage('profileImage', null);
-  const [name, setName] = useLocalStorage('profileName', 'Ahmet Yılmaz');
-  const [title, setTitle] = useLocalStorage('profileTitle', 'Frontend Developer & Creative Thinker');
-  const [email, setEmail] = useLocalStorage('profileEmail', 'ahmet.yilmaz@example.com');
+  const [name, setName] = useLocalStorage('profileName', 'Ali Kahya');
+  const [title, setTitle] = useLocalStorage('profileTitle', 'Yazılım Destek Danışmanı & Yazılım Geliştirme');
+  const [email, setEmail] = useLocalStorage('profileEmail', 'ali.kahya@outlook.com');
   const [location, setLocation] = useLocalStorage('profileLocation', 'İstanbul, Türkiye');
-  const [experience, setExperience] = useLocalStorage('profileExperience', '5+ Yıl');
+  const [experience, setExperience] = useLocalStorage('profileExperience', '17+ Yıl');
   const [saved, setSaved] = useState(false);
   const fileInputRef = useRef(null);
 
@@ -114,7 +114,7 @@ const AdminProfile = () => {
             value={title}
             onChange={(e) => setTitle(e.target.value)}
             className="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-            placeholder="Frontend Developer & Creative Thinker"
+            placeholder="Yazılım Destek Danışmanı & Yazılım Geliştirme"
           />
           <p className="text-xs text-gray-400 mt-1">Header'da ismin altında görünecek</p>
         </div>

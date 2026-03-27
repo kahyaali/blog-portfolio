@@ -3,11 +3,11 @@ import { FiGrid, FiCopy, FiShare2, FiDownload } from 'react-icons/fi';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
 
 const QRCard = () => {
-  const [profileName] = useLocalStorage('profileName', 'Ahmet Yılmaz');
+  const [profileName] = useLocalStorage('profileName', 'Ali Kahya');
   const [profileTitle] = useLocalStorage('profileTitle', 'Yazılım Destek Danışmanı & Yazılım Geliştirme');
-  const [profileEmail] = useLocalStorage('profileEmail', 'ahmet.yilmaz@example.com');
+  const [profileEmail] = useLocalStorage('profileEmail', 'ali.kahya@outlook.com');
   const [profileLocation] = useLocalStorage('profileLocation', 'İstanbul, Türkiye');
-  const [contactInfo] = useLocalStorage('contactInfo', { phone: '+90 555 123 45 67' });
+  const [contactInfo] = useLocalStorage('contactInfo', { phone: '+90 546 687 39 90' });
 
   const vCardData = `BEGIN:VCARD
 VERSION:3.0

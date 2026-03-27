@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import { FiHeart, FiBook, FiMusic, FiCamera, FiCoffee, FiActivity, FiPlus, FiX, FiImage } from 'react-icons/fi';
+import { FaCampground } from 'react-icons/fa';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
 
 const Hobbies = () => {
   const [hobbies] = useLocalStorage('hobbies', [
     { name: 'Kitap Okumak', icon: 'book', color: 'blue', description: 'Yılda 50+ kitap okuma hedefim var' },
-    { name: 'Gitar Çalmak', icon: 'music', color: 'green', description: 'Akustik ve elektro gitar' },
+    { name: 'Kamp Yapmak', icon: 'campground', color: 'green', description: 'Akustik ve elektro gitar' },
     { name: 'Oyun Oynamak', icon: 'activity', color: 'purple', description: 'PC ve konsol oyunları' },
     { name: 'Fotoğrafçılık', icon: 'camera', color: 'orange', description: 'Sokak ve manzara fotoğrafçılığı' },
     { name: 'Kahve Kültürü', icon: 'coffee', color: 'red', description: 'Farklı kahve türlerini denemek' }
@@ -27,7 +28,8 @@ const Hobbies = () => {
       music: FiMusic,
       activity: FiActivity,
       camera: FiCamera,
-      coffee: FiCoffee
+      coffee: FiCoffee,
+       campground: FaCampground
     };
     return icons[iconName] || FiHeart;
   };

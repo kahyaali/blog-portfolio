@@ -3,7 +3,38 @@ import { FiUsers, FiMail, FiPhone, FiBriefcase, FiStar, FiMessageCircle, FiUser 
 import { useLocalStorage } from '../../hooks/useLocalStorage';
 
 const References = () => {
-  const [references] = useLocalStorage('references', []);
+   const [references] = useLocalStorage('references', [
+    {
+      id: 1,
+      name: 'Nurettin İnal',
+      company: 'BTI Bilişim ve Danışmanlık',
+      position: 'Şirket Ortağı',
+      phone: '0532 374 02 69',
+      email: 'example@example.com',
+      message: 'BTI Bilişim ve Danışmanlık',
+      rating: 5
+    },
+    {
+      id: 2,
+      name: 'Mete Ersoy Tufan',
+      company: 'BTI Bilişim ve Danışmanlık',
+      position: 'Şirket Ortağı',
+      phone: '0532 374 02 57',
+      email: 'example@example.com',
+      message: 'BTI Bilişim ve Danışmanlık',
+      rating: 5
+    },
+    {
+      id: 3,
+      name: 'Ümit Bey',
+      company: 'Simercom',
+      position: 'Bilgi İşlem Müdürü',
+      phone: '0533 394 65 81',
+      email: 'example@example.com',
+      message: 'Bilgi İşlem',
+      rating: 4
+    }
+  ]);
 
   const renderStars = (rating) => {
     return [...Array(5)].map((_, i) => (

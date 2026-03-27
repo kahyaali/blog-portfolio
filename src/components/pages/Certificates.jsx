@@ -6,31 +6,32 @@ const Certificates = () => {
   const [certificates] = useLocalStorage('certificates', [
     {
       id: 1,
-      name: 'React Developer Certification',
-      issuer: 'Meta (Coursera)',
-      date: '2023',
-      link: 'https://www.coursera.org/verify/react',
-      image: 'https://via.placeholder.com/400x300?text=React+Certificate',
-      description: 'React ile modern web uygulamaları geliştirme sertifikası'
+      name: 'Logo Yazılım Uyarlama Araçları Sertifikası',
+      issuer: 'Logo Yazılım',
+      date: '2025',
+      link: '',
+      image: '',
+      description: 'Logo yazılım için yeni uyarlama araçları form sayfaları ve yeni modül tasarımlarının gerçekleştirilmesi'
     },
     {
       id: 2,
-      name: 'Frontend Development',
-      issuer: 'Google',
-      date: '2022',
-      link: 'https://www.google.com/certificate',
-      image: 'https://via.placeholder.com/400x300?text=Frontend+Certificate',
+      name: 'C#',
+      issuer: 'Üçüncü Binyıl Eğitim Kurumu',
+      date: '2019',
+      link: '',
+      image: '',
       description: 'HTML, CSS, JavaScript ve modern frontend teknolojileri'
     },
-    {
+      {
       id: 3,
-      name: 'JavaScript Algorithms',
-      issuer: 'freeCodeCamp',
-      date: '2022',
-      link: 'https://www.freecodecamp.org/certificate',
-      image: 'https://via.placeholder.com/400x300?text=JS+Certificate',
-      description: 'JavaScript algoritmaları ve veri yapıları'
+      name: 'Asp.Net Mvc, Asp.Net Dotnet Core,Asp.Net Web Api',
+      issuer: 'BTK Akademi',
+      date: '2019....2026',
+      link: '',
+      image: '',
+      description: 'Asp.Net Mvc,Asp.Net Dotnet Core,Asp.Net Web Api,Javascript,Jquery,Css,Bootstrap,React,Devexpress,Dapper,MsSql,,SqLite frontend ve backend telnolojileri'
     }
+   
   ]);
 
   const [selectedImage, setSelectedImage] = useState(null);

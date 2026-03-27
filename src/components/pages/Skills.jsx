@@ -4,14 +4,18 @@ import { useLocalStorage } from '../../hooks/useLocalStorage';
 
 const Skills = () => {
   const [skills] = useLocalStorage('skills', [
-    { name: 'React', level: 90, category: 'frontend', icon: FiCode },
-    { name: 'JavaScript', level: 85, category: 'frontend', icon: FiCode },
-    { name: 'TypeScript', level: 80, category: 'frontend', icon: FiCode },
-    { name: 'Next.js', level: 75, category: 'frontend', icon: FiZap },
-    { name: 'Tailwind CSS', level: 90, category: 'styling', icon: FiLayout },
-    { name: 'Node.js', level: 70, category: 'backend', icon: FiDatabase },
-    { name: 'Git', level: 85, category: 'tools', icon: FiTool },
-    { name: 'Redux', level: 80, category: 'state', icon: FiZap }
+    { name: 'Asp.Net Mvc', level: 70, category: 'backend', icon: FiCode },
+    { name: 'Asp.Net Dotnet Core', level: 70, category: 'backend', icon: FiCode },
+    { name: 'Asp.Net Web Api', level: 70, category: 'backend', icon: FiCode },
+     { name: 'MsSql', level: 70, category: 'backend', icon: FiCode },
+      { name: 'SqLite', level: 70, category: 'backend', icon: FiCode },
+       { name: 'Devexpress', level: 70, category: 'backend', icon: FiCode },
+        { name: 'Dapper', level: 70, category: 'backend', icon: FiCode },
+    { name: 'React', level: 60, category: 'frontend', icon: FiZap },
+    { name: 'Javascript', level: 70, category: 'styling', icon: FiLayout },
+    { name: 'Jquery', level: 70, category: 'styling', icon: FiDatabase },
+    { name: 'Css', level: 70, category: 'styling', icon: FiTool },
+    { name: 'Bootstrap', level: 80, category: 'styling', icon: FiZap }
   ]);
 
   const categories = {

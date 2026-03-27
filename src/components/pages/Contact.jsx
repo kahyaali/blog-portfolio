@@ -17,8 +17,8 @@ import { useLocalStorage } from '../../hooks/useLocalStorage';
 
 const Contact = () => {
   const [contactInfo] = useLocalStorage('contactInfo', {
-    phone: '+90 555 123 45 67',
-    email: 'Mail adresinizi giriniz',
+    phone: '+90 546 687 39 90',
+    email: 'ali.kahya@outlook.com',
     address: 'İstanbul, Türkiye'
   });
 

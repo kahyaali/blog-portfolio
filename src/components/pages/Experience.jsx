@@ -6,41 +6,57 @@ const Experience = () => {
   const [experiences] = useLocalStorage('experiences', [
     {
       id: 1,
-      title: 'Senior Frontend Developer',
-      company: 'Tech Company Inc.',
+      title: 'Yazılım Geliştirme',
+      company: 'BTI Bilişim ve Danışmanlık',
       location: 'İstanbul, Türkiye',
-      period: '2022 - Günümüz',
-      description: 'React ve Next.js ile büyük ölçekli web uygulamaları geliştirdim. Takım liderliği yaparak 3 kişilik ekibi yönettim. Performans optimizasyonları ile uygulama hızını %40 artırdım.',
+      period: '2025 / 2026',
+      description: 'Logo Yazılım programı için uyarlama araçlarını kullanarak çeşitli özelleştirmeler gerçekleştirdim.Müşteri ihtiyaçlarına yönelik entegrasyon yazılımları geliştirdim. Üretim sektöründe faaliyet gösteren firmalar için Windows Forms uygulamaları geliştirerek, REST API üzerinden üretim planlama ve üretim yönetimi çözümleri sundum.',
       achievements: [
-        'Şirketin ana ürününü React ile yeniden yapılandırdım',
-        'CI/CD pipeline kurulumu yaptım',
-        'Code review ve mentorluk süreçlerini yönettim'
+        
       ]
     },
     {
       id: 2,
-      title: 'Frontend Developer',
-      company: 'Digital Agency',
+      title: 'Yazılım Destek Danışmanı',
+      company: 'Systemsoft',
       location: 'İstanbul, Türkiye',
-      period: '2020 - 2022',
-      description: 'Çeşitli müşteriler için responsive web siteleri ve uygulamalar geliştirdim. Vue.js ve React ile projelerde çalıştım.',
+      period: '2024 / 2025',
+      description: 'B2B web uygulamaları ve Microsoft SQL Server (MSSQL) altyapılarının kurulum, konfigürasyon ve devreye alma süreçlerini yönettim. Müşterilere sistem kullanımı, veri yönetimi ve iş süreçleri hakkında teknik eğitimler verdim. İş ihtiyaçlarını analiz ederek MSSQL tabanlı veri yapıları, sorgular ve özel çözümler geliştirdim. Performans iyileştirme (query optimization), veri yedekleme (backup/restore) ve sistem sürekliliğini sağlamak adına gerekli bakım ve iyileştirme çalışmalarını gerçekleştirdim. Sistem stabilitesini artırmak için ihtiyaç duyulan ek modül ve opsiyonların entegrasyonunu sağladım.',
       achievements: [
-        '10+ müşteri projesinde frontend geliştirme yaptım',
-        'Tailwind CSS ile özel tasarım sistemleri oluşturdum',
-        'SEO optimizasyonları ile organik trafiği %50 artırdım'
+       
       ]
     },
     {
       id: 3,
-      title: 'Junior Web Developer',
-      company: 'Startup Company',
-      location: 'Ankara, Türkiye',
-      period: '2019 - 2020',
-      description: 'HTML, CSS, JavaScript ile web siteleri geliştirdim. E-ticaret sitesi projelerinde görev aldım.',
+      title: 'Yazılım Destek Danışmanı & Yazılım Geliştirme',
+      company: 'Meyer Grup',
+      location: 'İstanbul, Türkiye',
+      period: '2021 / 2023',
+      description: 'Meyer Angel PDKS sistemi ve Microsoft SQL Server (MSSQL) altyapılarının kurulum, konfigürasyon ve devreye alma süreçlerini yönettim. Müşterilere sistem kullanımı, personel devam kontrol süreçleri ve raporlama konularında eğitimler verdim. Müşteri ihtiyaçlarını analiz ederek MSSQL üzerinde özel sorgular geliştirdim ve ihtiyaca yönelik raporlar hazırladım. Veri doğruluğu ve sistem verimliliğini artırmak amacıyla gerekli iyileştirme ve optimizasyon çalışmalarını gerçekleştirdim.',
       achievements: [
-        'WordPress tabanlı projeler geliştirdim',
-        'E-ticaret sitesinin frontend kısmını tamamladım',
-        'Cross-browser uyumluluk sorunlarını çözdüm'
+        
+      ]
+    },
+     {
+      id: 4,
+      title: 'Otomasyon Programcısı',
+      company: 'Emikon',
+      location: 'İstanbul, Türkiye',
+      period: '2016 / 2019',
+      description: 'Elektrik otomasyon panolarının tasarımını ve projelendirmesini gerçekleştirdim. PLC, HMI ve inverter sistemleri için yazılım geliştirme ve devreye alma süreçlerinde aktif rol aldım. Endüstriyel otomasyon projelerinde süreç kontrolü, makine entegrasyonu ve sistem optimizasyonu çalışmaları yaptım. Sahada devreye alma, test ve arıza giderme süreçlerini yöneterek sistemlerin kesintisiz ve verimli çalışmasını sağladım.',
+      achievements: [
+        
+      ]
+    },
+     {
+      id: 5,
+      title: 'Otomasyon Programcısı',
+      company: 'Azra Otomasyon',
+      location: 'İstanbul, Türkiye',
+      period: '2014 / 2016',
+      description: 'Elektrik otomasyon panolarının tasarımını ve projelendirmesini gerçekleştirdim. PLC, HMI ve inverter sistemleri için yazılım geliştirme ve devreye alma süreçlerinde aktif rol aldım. Endüstriyel otomasyon projelerinde süreç kontrolü, makine entegrasyonu ve sistem optimizasyonu çalışmaları yaptım. Sahada devreye alma, test ve arıza giderme süreçlerini yöneterek sistemlerin kesintisiz ve verimli çalışmasını sağladım.',
+      achievements: [
+        
       ]
     }
   ]);

@@ -88,7 +88,7 @@ const Home = () => {
               <div className="text-blue-100 text-sm">Mutlu Müşteri</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-white">2+</div>
+              <div className="text-2xl md:text-3xl font-bold text-white">3+</div>
               <div className="text-blue-100 text-sm">Sertifika</div>
             </div>
           </div>
